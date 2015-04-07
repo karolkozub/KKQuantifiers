@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F9D4C03B1AD45854001012BB /* KKQuantifiersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4C03A1AD45854001012BB /* KKQuantifiersTests.m */; };
+		F9D4C0401AD459D0001012BB /* KKQuantifiers.m in Sources */ = {isa = PBXBuildFile; fileRef = F9D4C0301AD4536D001012BB /* KKQuantifiers.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F9D4C02F1AD4536D001012BB /* KKQuantifiers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKQuantifiers.h; sourceTree = "<group>"; };
+		F9D4C0301AD4536D001012BB /* KKQuantifiers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKQuantifiers.m; sourceTree = "<group>"; };
+		F9D4C0351AD45854001012BB /* KKQuantifiersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKQuantifiersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D4C0391AD45854001012BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9D4C03A1AD45854001012BB /* KKQuantifiersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKQuantifiersTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9D4C0321AD45854001012BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F9D4C0281AD45339001012BB = {
+			isa = PBXGroup;
+			children = (
+				F9D4C03F1AD4585B001012BB /* KKQuantifiers */,
+				F9D4C0371AD45854001012BB /* KKQuantifiersTests */,
+				F9D4C0361AD45854001012BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F9D4C0361AD45854001012BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9D4C0351AD45854001012BB /* KKQuantifiersTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9D4C0371AD45854001012BB /* KKQuantifiersTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9D4C03A1AD45854001012BB /* KKQuantifiersTests.m */,
+				F9D4C0381AD45854001012BB /* Supporting Files */,
+			);
+			path = KKQuantifiersTests;
+			sourceTree = "<group>";
+		};
+		F9D4C0381AD45854001012BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D4C0391AD45854001012BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F9D4C03F1AD4585B001012BB /* KKQuantifiers */ = {
+			isa = PBXGroup;
+			children = (
+				F9D4C02F1AD4536D001012BB /* KKQuantifiers.h */,
+				F9D4C0301AD4536D001012BB /* KKQuantifiers.m */,
+			);
+			path = KKQuantifiers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9D4C0341AD45854001012BB /* KKQuantifiersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9D4C03C1AD45854001012BB /* Build configuration list for PBXNativeTarget "KKQuantifiersTests" */;
+			buildPhases = (
+				F9D4C0311AD45854001012BB /* Sources */,
+				F9D4C0321AD45854001012BB /* Frameworks */,
+				F9D4C0331AD45854001012BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKQuantifiersTests;
+			productName = KKQuantifiersTests;
+			productReference = F9D4C0351AD45854001012BB /* KKQuantifiersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9D4C0291AD45339001012BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					F9D4C0341AD45854001012BB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = F9D4C02C1AD45339001012BB /* Build configuration list for PBXProject "KKQuantifiers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F9D4C0281AD45339001012BB;
+			productRefGroup = F9D4C0361AD45854001012BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9D4C0341AD45854001012BB /* KKQuantifiersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9D4C0331AD45854001012BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9D4C0311AD45854001012BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9D4C03B1AD45854001012BB /* KKQuantifiersTests.m in Sources */,
+				F9D4C0401AD459D0001012BB /* KKQuantifiers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F9D4C02D1AD45339001012BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F9D4C02E1AD45339001012BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		F9D4C03D1AD45854001012BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = KKQuantifiersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F9D4C03E1AD45854001012BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = KKQuantifiersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9D4C02C1AD45339001012BB /* Build configuration list for PBXProject "KKQuantifiers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D4C02D1AD45339001012BB /* Debug */,
+				F9D4C02E1AD45339001012BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9D4C03C1AD45854001012BB /* Build configuration list for PBXNativeTarget "KKQuantifiersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9D4C03D1AD45854001012BB /* Debug */,
+				F9D4C03E1AD45854001012BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9D4C0291AD45339001012BB /* Project object */;
+}
